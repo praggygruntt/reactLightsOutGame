@@ -86,7 +86,7 @@ class Board extends Component {
     }
     return(
       <table className="Board">
-        <tbody>
+        <tbody className="Table"> 
           {tableBoard}
         </tbody>
       </table>

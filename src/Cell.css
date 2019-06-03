@@ -1,10 +1,15 @@
 .Cell {
   height: 100px;
   width: 100px;
-  background-color: #103fa0;
+  background-color: #1e2a44;
   box-shadow: 0 0 3px 0px white;
+  border-radius: 5px;
 }
 
 .Cell-lit {
-  background-color: darkgray;
+  background: radial-gradient(#ffe47a, #ff3939 80%);
+}
+
+.Cell, .Cell-lit {
+  cursor: pointer;
 }
